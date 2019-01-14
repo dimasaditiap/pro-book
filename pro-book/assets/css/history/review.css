@@ -1,0 +1,129 @@
+body, div, p{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.review {
+    width: 520px;
+    padding: 25px;
+    margin: 0 auto 0 auto;
+}
+
+.review__header {
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-size: 50px;
+    vertical-align: bottom;
+    justify-content: space-between; 
+}
+
+.review__book-title {
+    margin-left: -3px
+}
+
+.review__book-author {
+    width: 250px;
+    font-size: 20px;
+    color: darkgrey;
+}
+
+.review__book-img {
+    width: 100px;
+    height: 100px;
+}
+
+.review__subtitle {
+    font-size: 30px;
+    margin: 30px 0 20px 0;
+}
+
+textarea {
+    width: 95%;
+    padding: 10px;
+}
+
+.review__back {
+    background-color: white;
+    border: 2px solid #F26600;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 25px;
+    width: 130px;
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.review__submit {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 130px;
+    padding: 7px 10px 7px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.review__back:hover{
+    background-color: #F26600;
+    color: white;
+    transition: background-color .25s;
+    /* border: 2px solid #F26600; */
+}
+.review__submit:hover{
+    background-color: #00AEEF;
+    transition: background-color .25s;
+}
+.review__button {
+    margin: 40px 0 0 0;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.clear {
+    float: none;
+    clear: both;
+}
+
+.rating {
+    font-size: 500%;
+}
+
+.rating > label {
+    float: right;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 1.1em;
+    cursor: pointer;
+    color: #000;
+}
+
+.rating > label:hover,
+.rating > label:hover ~ label,
+.rating > input.radio-btn:checked ~ label {
+    color: transparent;
+}
+
+.rating > label:hover:before,
+.rating > label:hover ~ label:before,
+.rating > input.radio-btn:checked ~ label:before,
+.rating > input.radio-btn:checked ~ label:before {
+    content: "\2605";
+    position: absolute;
+    left: 0;
+    color: #FFD700;
+}

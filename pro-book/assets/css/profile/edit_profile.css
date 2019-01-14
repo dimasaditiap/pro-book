@@ -1,0 +1,136 @@
+.edit-profile{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    margin: 20px 10vw;
+    align-items: center;
+}
+.edit-profile__title{
+    width: 100%;
+}
+.edit-profile__form{
+    width: 100%;
+    padding-left: 10px;
+}
+.edit-profile__edit-image{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.edit-profile__image{
+    flex: 1;
+    display: flex;
+    margin: 10px 10px 10px 0;
+    align-items: center;
+}
+
+.edit-profile__image img{
+    height: 120px;
+    width: 120px;
+    border: 2px black solid;
+}
+.edit-profile__browse{
+    flex :3;
+}
+.edit-profile__desc{
+    margin-bottom: 5px;
+}
+.edit-profile__browser-image{
+    display: flex;
+    width: 100%;
+}
+.edit-profile__file-name{
+    flex: 4;
+    border: 0.1px grey solid;
+}
+
+.file-label {
+    display: flex;
+}
+
+.browse-name {
+    border: 1px solid grey;
+    flex: 1;
+}
+
+.browse-btn {
+    cursor: pointer;
+    background-color: gainsboro;
+    padding: 3.5px;
+    margin-left: 5px;
+    border-radius: 2.5px;
+    border: 1px solid grey;
+}
+
+#fileToUpload {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.edit-profile__browse-button{
+    flex: 1;
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+}
+.edit-profile__browse-button:hover{
+    background-color: whitesmoke;
+}
+.edit-profile__edit-info{
+    margin-bottom: 20px;    
+}
+.edit-profile-row{
+    display: flex;
+    height: 10%;
+    margin-bottom: 10px;
+}
+
+.edit-profile-row:nth-child(2n + 1) {
+    align-items: center;
+}
+
+.edit-profile-row label{
+    flex :1;
+}
+.edit-profile-row input{
+    flex :3;
+    height: 25px;
+    padding: 2.5px;
+}
+.edit-profile__edit-address textarea{
+    flex: 3;
+    padding: 3.5px;
+    box-sizing: border-box;
+}
+.edit-profile__button{
+    display: flex;
+    justify-content: space-between;
+}
+.edit-profile__button button{
+    padding: 5px 23px;
+    border: none;
+    border-radius: 5px;
+}
+.edit-profile__button input[type="submit"]{
+    padding: 5px 23px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.edit-profile__button .edit-profile__back{
+    background-color: white;
+    border: 2px solid #F26600;
+    cursor: pointer;
+}
+.edit-profile__button .edit-profile__back:hover{
+    background-color: #F26600;
+    color: white;
+    transition: background-color .25s;
+}
+.edit-profile__button .edit-profile__save:hover{
+    background-color: #00AEEF;
+    transition: background-color .25s;
+}

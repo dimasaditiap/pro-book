@@ -1,0 +1,43 @@
+.blue-light{
+    color: #00AEEF;
+}
+.blue-medium{
+    color: #0094CC;
+}
+.blue-dark{
+    color: #00374C;
+}
+.orange{
+    color: #F26600;
+}
+.yellow-darker{
+    color : #F2D800
+}
+.yellow-light{
+    color: #FEEF39;
+}
+
+.blue-light-background{
+    background-color: #00AEEF;
+    color: white;
+}
+.blue-medium-background{
+    background-color: #0094CC;
+    color: white;
+}
+.blue-dark-background{
+    background-color: #00374C;
+    color: white;
+}
+.orange-background{
+    background-color: #F26600;
+    color: white;
+}
+.yellow-darker-background{
+    background-color : #F2D800;
+    color: white;
+}
+.yellow-light-background{
+    background-color: #FEEF39;
+    color: white;
+}

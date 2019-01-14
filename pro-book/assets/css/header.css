@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito', sans-serif;
+    /* border: .1px solid red */
+}
+.header_app_container{
+    display: flex;
+}
+.header_app_content a{
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.header_app_content{
+    flex : 1;
+    font-size: 1rem;
+    text-align: center;
+    padding: 1%;
+    align-items: flex-end;
+}
+.header_app_content .header_app_content_appName{
+    font-size: 2rem;
+}
+.header_app_content .header_app_content_userName{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.header_app_content_shutdown{
+    height: 2rem;
+    cursor: pointer;
+}
+.bigger_bold{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.bigger{
+    flex: 15;
+    display: flex;
+    justify-content: space-between;
+}
+/* .header_app_content[class="blue-medium-background"]:hover{
+    background-color: #F26600;
+} */
+.hover_lightBlue{
+    transition: background-color .25s;
+}
+.hover_lightOrange{
+    transition: background-colot .25s;
+}
+.hover_lightBlue:hover{
+    background-color: rgb(4, 166, 224);
+    transition: background-color .25s;
+}
+.hover_lightOrange:hover{
+    background-color: rgb(255, 126, 35);
+    transition: background-color .25s;
+}
+.button_up{
+    transition: transform .5s;
+}
+.button_up:hover{
+    transform: translateY(-3px);
+    transition: transform .5s;
+}
